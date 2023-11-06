@@ -384,8 +384,11 @@ label {
     width: auto; /* Let labels adapt to content width */
     align-items: center;
 }
-
-
+#text1,
+#text2 {
+    font-size: 60pt;
+    width: 80%;
+}
 
 }
 

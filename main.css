@@ -231,7 +231,7 @@ buttons {
         font-family: Arial, sans-serif;
         background-repeat: no-repeat;
        
-        background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(https://mfiles.alphacoders.com/803/803879.jpg);
+       background:linear-gradient(rgba(24, 24, 24, 0.55), rgba(24, 24, 24, 0.55)), url(https://mfiles.alphacoders.com/803/803879.jpg) ;
         object-fit: cover;
         background-size: 100%;
         margin: 0;

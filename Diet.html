@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+        
+        body {
+        margin: 0px;
+        }
+        
+        
+        </style>
+    
+    <header>
+    <h1>Welcome to the Health and Wellness Resource Center</h1>
+    <div class="menu-button"></div>
+    <input type="checkbox" name="" class=" btn">
+    <div class="nav"> 
+        <ol>
+           <li><a href="Diet.html">diet</a></li>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="# ">Nutrition</a></li>
+           <li><a href="fitness/fitness.html">workout</a></li>
+           <li><a href="#  ">Mental Health</a></li>
+           <li><a href="#  ">Lifestyle</a></li>
+        </ol>
+    </div>
+
+</header> 
+</head>
+
+
+<body>
+   
+    
+   
+    <div class="thiscontainerforcontainer">
+        <div class="container ">
+            <div class="glass">
+            
+            <h2>create you Diet</h2>
+            <label for="gender">Select Gender:</label>
+            <select id="gender" class="select">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <br>
+            <label for="gender">Select country</label>
+            <select id="gender" class="select">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <br>
+            <label for="diet-type">Diet Type:</label>
+            <select id="diet-type" class="select">
+                <option value="balanced">Balanced Diet</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+                <option value="keto">Keto</option>
+            </select>
+       <br>
+            <label for="Lifestyle">Lifestyle :</label>
+            <select id="diet-type" class="select">
+                <option value="Student">Student</option>
+                <option value="Employee">Employee</option>
+                <option value="Non-employee">Non-employee</option>
+   
+            </select>
+            <br>
+           
+            <label for="age">Age (years):</label>
+            <input type="number" id="age" min="1">
+            <br>
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" min="1">
+            <br>
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" min="1">
+            <br>
+           
+           
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" min="1">
+            <br>
+            <button onclick="calculateBodyFat()" id="startButton">create</button>
+            
+        </div>
+        </div>
+        <div class="container_for-typing" id="">
+            <div class="glass_for-typing" id="">
+                <h4 id="typing-container">here is your diet plan</h4>
+                <br>  
+            
+                <p id="result" ></p>
+        </div>
+        </div>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

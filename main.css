@@ -1,0 +1,392 @@
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(https://wallpapercave.com/wp/wp2561121.jpg);
+    object-fit: cover;
+    background-size: 100%;
+    margin: 0;
+  
+  
+}
+header {
+    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1xp solid;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+} .nav{
+    display: flex;
+    align-items: center;
+}
+.nav ol{
+    display:flex;
+    list-style: none;
+}
+.btn{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    display: none;
+}
+.btn::before{
+    content: 'f0c9';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Font Awsome 5 Free';
+    font-weight: 700;
+    font-size: 2em;
+}
+.nav ol li{margin:lem;}
+.nav ol li a{
+    text-decoration: none;
+    padding: 0.2em 1.2em 0.9em 1.2em;
+    border-radius: 10px 10px 0 0;
+    color: rgb(255, 255, 255);
+    transition: all .4s;
+    position: relative;
+    z-index: 1;
+}
+.nav ol li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 41px;
+    border-radius: 10px 10px 0 0;
+    background: #c93838;
+    transform-origin: bottom;
+    background: linear-gradient(to right, #2490be,#32aed7, #0F2027);
+    transform: scale(0.05);
+    z-index: -1;
+    transition: all .4s;
+}
+
+.nav ol li a:hover::before{transform: scale(1.1);}
+.nav ol a:hover{color: white;}
+
+
+
+
+
+
+
+#text1,
+#text2 {
+position: absolute;
+width: 100%;
+display: inline-block;
+
+font-family: "Comic Sans", "Cambria",sans-serif;
+font-size: 80pt;
+
+text-align: center;
+color: aliceblue;
+
+user-select: none;
+}
+#TextAnimation{
+width: 100%;
+margin-top: 6%;
+align-items: center;
+}
+
+
+
+label{
+    width: 150px;
+    display: inline-block;
+
+}
+#result{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30px;
+    color: #fff;
+    margin-right: 30px;
+   
+}
+h1{
+    color: #fff;
+}h2{
+    color: white;
+}
+h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+label{
+    color: white;
+}
+#typing-container{
+   font-size: 25px;
+}
+
+
+
+
+.container_for-typing{
+    width: 70%; 
+    height: 100%; 
+    text-align: center;
+    display: grid;
+}
+ .glass{
+    width: 100%;
+   
+    background: linear-gradient(rgba(252, 252, 252, 0.1),rgba(238, 232, 232, 0.433));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1xp solid;
+
+}
+.glass_for-typing{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(238, 232, 232, 0.433));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1xp solid;
+}
+    #container {
+position: absolute;
+margin: auto;
+width: 100vw;
+height: 80pt;
+top: 0;
+bottom: 0;
+
+filter: url(#threshold) blur(0.6px);
+}
+
+
+
+.thiscontainerforcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 2px; /* Gap between blocks */
+
+}
+.container {
+    width: 70%;  
+    height: 30px;
+    text-align: center;
+    display: grid;
+    margin-left: 50px;
+   
+}
+#typing-container{
+   font-size: 25px;
+}
+input[type="number"] {
+    width: 20%;
+    padding: 10px;
+    margin: 5px 0;
+   
+    border-radius: 4px;
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1xp solid;
+}
+.select{
+    width: 20%;
+    height: 30px;
+   margin: 4px;
+   
+   border-radius: 4px;
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1xp solid;
+}
+buttons {
+    padding: 10px 20px;
+    margin: 50px;
+    background-color: #3498db;
+    color: #fff;
+    width: 100px;
+    border: none;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+    body{
+       
+ 
+       
+        font-family: Arial, sans-serif;
+        background-repeat: no-repeat;
+       
+        background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(https://mfiles.alphacoders.com/803/803879.jpg);
+        object-fit: cover;
+        background-size: 100%;
+        margin: 0;
+    }
+
+   
+.thiscontainerforcontainer {
+    display: block; /* Change to block for mobile */
+    width: 100%; /* Full width for mobile */
+}
+
+
+
+
+
+header {
+  
+    justify-content: space-between; /* Adjust spacing for mobile */
+}
+h1{
+    font-size: 18px;
+}
+
+.nav ol li a {
+    padding: 0.2em 0.6em 0.9em 0.6em; /* Adjust padding for mobile */
+
+
+}
+.nav ol {
+flex-direction: column; /* Stack menu items vertically for mobile */
+}
+
+.nav ol li {
+margin: 0; /* Remove margin for mobile */
+}
+
+.nav ol li a {
+display: block; /* Make menu items full-width for mobile */
+text-align: left; /* Adjust text alignment for mobile */
+padding: 10px 20px; /* Increase padding for better touch targets */
+border-radius: 0; /* Remove border-radius for mobile */
+color: rgb(255, 255, 255);
+transition: all 0.4s;
+position: relative;
+z-index: 1;
+border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Add a separator between items */
+}
+
+.nav ol li:last-child a {
+border-bottom: none; /* Remove separator for the last item */
+}
+
+.nav ol li a::before {
+content: none; /* Remove the before pseudo-element for mobile */
+}
+
+.nav ol li a:hover {
+background: linear-gradient(to right, #2490be, #32aed7, #0F2027);
+color: white;
+}
+.nav ol {
+display: none;
+flex-direction: column; /* Stack menu items vertically for mobile */
+}
+
+.nav.open ol {
+display: flex; /* Display the menu when the "open" class is added */
+}
+
+.menu-button {
+display: block; /* Display the menu button for mobile */
+cursor: pointer;
+}
+
+/* Style for the hamburger menu button */
+.menu-button::before {
+content: '\2630'; /* Unicode character for the hamburger icon */
+font-size: 24px; /* Adjust the size as needed */
+color: white;
+}
+
+.menu-button.active::before {
+content: '\2715'; /* Unicode character for the close icon when menu is open */
+}
+
+.menu-button.active + .nav.open ol {
+display: flex; /* Display the menu when the button is active */
+}
+
+
+.container,
+.container_for-typing 
+{
+   margin-top: auto;
+    text-align: center;  
+    width: 50%;  
+    margin-left: 50px;
+    align-items: center;
+    }
+   
+    input[type="number"] {
+        align-items: center;
+     
+     }
+     .select{
+         
+         width: 25%;
+         height: 35px;
+     }
+     button{
+      align-items: center;
+      margin: 5px 120px; /* Adjust margin for mobile */
+      padding: 10px 20px;
+    
+    background-color: #3498db;
+    color: #fff;
+    width: 100px;
+    border: none;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+     }
+    #typing-container{
+   font-size: 25px;
+   align-items: center;
+
+}
+input[type="number"],
+.select {
+    width: 40%; /* Full width for mobile */
+    align-items: center;
+    margin: 5px auto; /* Center-align inputs and selects horizontally */
+
+padding: 10px;
+
+}
+
+
+.container_for-typing{
+   margin-top: 100%;
+   width: 70%;
+ 
+}
+
+
+
+label {
+    width: auto; /* Let labels adapt to content width */
+    align-items: center;
+}
+
+
+
+}
+
+

@@ -230,12 +230,14 @@ buttons {
        
  
        
+     
+       
         font-family: Arial, sans-serif;
         background-repeat: no-repeat;
        
         background:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(https://mfiles.alphacoders.com/803/803879.jpg);
         object-fit: cover;
-        background-size: 100%;
+        background-size: 100% 500px;
         margin: 0;
     }
 
